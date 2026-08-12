@@ -6,3 +6,14 @@ obj/
 *.suo
 *.userosscache
 *.sln.docstates
+
+## Node / Angular
+node_modules/
+frontend/**/dist/
+frontend/**/.angular/
+frontend/**/npm-debug.log*
+
+## Playwright
+frontend/**/test-results/
+frontend/**/playwright-report/
+frontend/**/playwright/.cache/
