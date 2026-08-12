@@ -78,7 +78,7 @@ namespace ElevatorProject.UnitTests
             myElevator.InUser(Director);
             myElevator.InUser(Producer);
             // removing one
-            myElevator.OutUser(Producer);
+            myElevator.OutUser(Producer);  
             var result = myElevator.CheckMaxWeightAllowedReached();
 
             // Assert            
@@ -93,7 +93,7 @@ namespace ElevatorProject.UnitTests
             // employee 1
             var Artist = new Employee();
             Artist.Weight = 75;            
-            // employee 2
+            // employee 2   
             var GameDesigner = new Employee();
             GameDesigner.Weight = 85;
 
