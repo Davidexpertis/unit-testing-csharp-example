@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
+
+/// Das ist mein persönliches Projekt, das ich in meiner Freizeit entwickelt habe. Es ist ein Elevator-Simulator, der die Funktionsweise eines Aufzugs in einem Gebäude simuliert. Der Aufzug hat eine maximale Gewichtskapazität und kann nur von bestimmten Mitarbeitern benutzt werden, die als "Executive" gekennzeichnet sind. Das Projekt enthält auch eine Testklasse, die die Funktionalität des Aufzugs überprüft und sicherstellt, dass er korrekt funktioniert.
 namespace ElevatorProject
 {
     public class Elevator
