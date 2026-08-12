@@ -1,0 +1,16 @@
+.elevator {
+  max-width: 480px;
+  margin: 2rem auto;
+  font-family: sans-serif;
+}
+
+.error {
+  color: #b00020;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}

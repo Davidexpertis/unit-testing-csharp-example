@@ -1,8 +1,9 @@
 import { Component, signal } from '@angular/core';
+import { ElevatorComponent } from './elevator/elevator';
 
 @Component({
   selector: 'app-root',
-  imports: [],
+  imports: [ElevatorComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
